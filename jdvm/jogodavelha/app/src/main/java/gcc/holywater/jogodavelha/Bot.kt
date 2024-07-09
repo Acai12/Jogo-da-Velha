@@ -37,7 +37,7 @@ class Bot {
             val buttonSelecionado = view as Button
 
             buttonSelecionado.text = "X"
-            buttonSelecionado.setBackgroundResource(com.example.jogodavelha.R.drawable.asuka1)
+            buttonSelecionado.setBackgroundResource(com.example.jogodavelha.R.drawable.lelouch1)
             //Desativa o botão.
             buttonSelecionado.isEnabled = false
             //Atualiza o tabuleiro com X na posição correspondente.
@@ -68,7 +68,7 @@ class Bot {
                 i++
             }
             tabuleiro[rX][rY] = "O"
-            buttonSelecionado.setBackgroundResource(com.example.jogodavelha.R.drawable.rei1)
+            buttonSelecionado.setBackgroundResource(com.example.jogodavelha.R.drawable.CC1)
             //Converte as posições.
             val posicao = rX * 3 + rY
             //Atualiza o texto e estado dos botões.
