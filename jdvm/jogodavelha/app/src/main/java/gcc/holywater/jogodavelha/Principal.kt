@@ -60,11 +60,11 @@ class Principal : AppCompatActivity() {
             //Turno de qual player
             if (playeratual.equals("X")) {
                 //se o primeiro Player for "X" então o outro Player é definido como "O"
-                buttonSelecionado.setBackgroundResource(R.drawable.asuka2)
+                buttonSelecionado.setBackgroundResource(R.drawable.lelouch2)
                 playeratual = "O"
             } else {
                 //Porque senão o player "O" sera definido como "X".
-                buttonSelecionado.setBackgroundResource(R.drawable.rei2)
+                buttonSelecionado.setBackgroundResource(R.drawable.CC2)
                 playeratual = "X"
             }
             buttonSelecionado.isEnabled = false
