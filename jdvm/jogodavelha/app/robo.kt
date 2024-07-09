@@ -38,7 +38,7 @@ class MainActivity : AppCompatActivity() {
         // Converte a view recebida para um botão.
         val buttonSelecionado = view as Button
 
-        buttonSelecionado.setBackgroundResource(R.drawable.sasaki)
+        buttonSelecionado.setBackgroundResource(R.drawable.lelouch1)
         // Define o texto do botão clicado como "X".
         buttonSelecionado.text = "X"
 
@@ -76,7 +76,7 @@ class MainActivity : AppCompatActivity() {
             i++
         }
 
-        buttonSelecionado.setBackgroundResource(R.drawable.poseidon)
+        buttonSelecionado.setBackgroundResource(R.drawable.CC2)
         // Marca a posição encontrada com "O".
         tabuleiro[rX][rY] = "O"
 
